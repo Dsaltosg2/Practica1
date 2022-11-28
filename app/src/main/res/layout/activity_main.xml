@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lblpractica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginBottom="542dp"
+        android:text="Practica 1 Android "
+        android:textColor="#0E0E0E"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/lblid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="113dp"
+        android:text="Numero ID:"
+        android:textColor="#090909"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <TextView
+        android:id="@+id/lblnombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="158dp"
+        android:text="Nombres:"
+        android:textColor="#0C0C0C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <TextView
+        android:id="@+id/lblfecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="203dp"
+        android:text="Fecha de nacimiento:"
+        android:textColor="#100F0F"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <TextView
+        android:id="@+id/lblciudad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="347dp"
+        android:text="Ciudad:"
+        android:textColor="#0C0C0C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <TextView
+        android:id="@+id/lblgénero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="268dp"
+        android:text="Género:"
+        android:textColor="#0C0C0C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <TextView
+        android:id="@+id/lblcorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="395dp"
+        android:text="Correo:"
+        android:textColor="#090909"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <TextView
+        android:id="@+id/lbltélefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="445dp"
+        android:text="Teléfono: "
+        android:textColor="#070707"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="415dp" />
+
+    <EditText
+        android:id="@+id/txtcorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="383dp"
+        android:layout_marginEnd="111dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Correo@"
+        android:textColor="#CCC0C0"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <EditText
+        android:id="@+id/txtid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="98dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="ID"
+        android:textColor="#D8D5D4"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <EditText
+        android:id="@+id/txtnombres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="145dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="415dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nombres"
+        android:textColor="#D1CDCD"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <EditText
+        android:id="@+id/txtfecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="189dp"
+        android:layout_marginEnd="31dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="DD/MM/AA"
+        android:textColor="#D6CECE"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <EditText
+        android:id="@+id/txtciudad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="339dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Ciudad"
+        android:textColor="#CDC2C2"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <EditText
+        android:id="@+id/txtteléfono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="429dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="Número cell"
+        android:textColor="#CAC1C1"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <RadioButton
+        android:id="@+id/rbmasculino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="246dp"
+        android:text="Masculino"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <RadioButton
+        android:id="@+id/rbFemenino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="291dp"
+        android:text="Femenino"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <Button
+        android:id="@+id/btenviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="508dp"
+        android:text="ENVIAR"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+</RelativeLayout>
